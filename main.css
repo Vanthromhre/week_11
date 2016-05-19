@@ -1,0 +1,74 @@
+body {
+  background-image: url("../img/smlimage.jpg");
+  background-position: center center; 
+  background-repeat: no-repeat;  
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:#000000;    
+  font-size: 18px;
+  color: #ffffff;
+}
+
+/* For larger devices */
+@media only screen and (min-width: 506px) {
+  body {
+    background-image: url("../img/lrgimage.jpg")
+  }
+}
+
+html, body, header {
+    height: 100%;
+}
+
+html, body, header, section, h1, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 53px;
+}
+
+h1, p {
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+
+a {
+    color: #000000;
+}
+
+.belowfold {
+    margin: 50px;
+    font-size: 24px;
+
+}
+
+.button {
+    padding: 6px 10px;
+    color: #ff0000;
+    border: 1px solid #000000
+    border-radius: 6px;
+    text-decoration: none;
+}
+
